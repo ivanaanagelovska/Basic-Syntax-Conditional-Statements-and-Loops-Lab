@@ -3,33 +3,45 @@ string month = string.Empty;
 
 switch (num)
 {
-	case 1: month = "January";
-		break;
-		case 2: month = "February";
-		break;
-		case 3: month = "March";
+    case 1:
+        month = "January";
         break;
-		case 4: month = "April";
+    case 2:
+        month = "February";
         break;
-		case 5: month = "May";
-		break;
-		case 6: month = "June";
+    case 3:
+        month = "March";
         break;
-		case 7: month = "July";
-		break;
-		case 8: month = "August";
+    case 4:
+        month = "April";
         break;
-		case 9: month = "September";
+    case 5:
+        month = "May";
         break;
-		case 10: month = "October";
+    case 6:
+        month = "June";
         break;
-		case 11: month = "November";
+    case 7:
+        month = "July";
         break;
-		case 12: month = "December";
+    case 8:
+        month = "August";
         break;
-	default:
-		month = "Error!";
-		break;
+    case 9:
+        month = "September";
+        break;
+    case 10:
+        month = "October";
+        break;
+    case 11:
+        month = "November";
+        break;
+    case 12:
+        month = "December";
+        break;
+    default:
+        month = "Error!";
+        break;
 }
 
 Console.WriteLine(month);
